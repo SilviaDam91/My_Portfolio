@@ -1,6 +1,28 @@
-h1 {
-  font-family: "Playfair Display", serif;
+:root {
+  --primary_color: rgb(146, 146, 189);
+  --primary_font: "Poppins", sans-serif;
+  --secondary_font: "Playfair Display", serif;
 }
-p {
-  font-family: "Poppins", sans-serif;
+
+h1 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.homePage {
+  text-align: center;
+  background-color: var(--primary_color);
+  padding: 160px 0;
+  font-family: var(--primary_font);
+}
+
+.contact_me_button {
+  line-height: 27px;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 4px;
 }
