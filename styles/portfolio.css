@@ -5,7 +5,7 @@
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: bolder;
 }
 h2 {
@@ -23,6 +23,7 @@ h2 {
 .content_section {
   text-align: center;
   line-height: 1.9;
+  font-family: var(--primary_font);
 }
 
 .contact_me_button {
