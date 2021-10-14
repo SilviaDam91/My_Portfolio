@@ -1,5 +1,5 @@
 :root {
-  --primary_color: rgb(146, 146, 189);
+  --primary_color: rgb(226, 226, 255);
   --primary_font: "Poppins", sans-serif;
   --secondary_font: "Playfair Display", serif;
 }
@@ -20,6 +20,11 @@ h2 {
   font-family: var(--primary_font);
 }
 
+.content_section {
+  text-align: center;
+  line-height: 1.9;
+}
+
 .contact_me_button {
   line-height: 27px;
   font-size: 18px;
@@ -32,7 +37,12 @@ h2 {
   font-family: var(--primary_font);
 }
 
-@media (max-width: 960px) {
+.project_snap {
+  margin: 20px;
+  max-width: 70%;
+}
+
+@media (max-width: 350px) {
   .project_title {
     font-size: 20px;
   }
