@@ -13,7 +13,20 @@ h2 {
   font-size: 24px;
   font-weight: lighter;
 }
+nav li {
+  padding: 5px;
+  display: inline;
+}
 
+.nav_link {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  color: grey;
+  font-weight: 500;
+}
+.active {
+  color: rgb(16, 13, 194);
+}
 .homePage {
   text-align: center;
   background-color: var(--primary_color);
@@ -49,9 +62,6 @@ h2 {
   text-align: center;
   color: black;
   font-size: 20px;
-}
-.icon_style {
-  display: block;
 }
 
 @media (max-width: 350px) {
