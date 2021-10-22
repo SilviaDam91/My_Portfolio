@@ -25,7 +25,8 @@ nav li {
   font-weight: 500;
 }
 .active {
-  color: rgb(16, 13, 194);
+  color: #a393eb;
+  font-weight: bolder;
 }
 .homePage {
   text-align: center;
@@ -45,6 +46,8 @@ nav li {
   font-size: 18px;
   padding: 15px 30px;
   border-radius: 4px;
+  background-color: #a393eb;
+  color: white;
 }
 
 .content_title {
@@ -55,8 +58,24 @@ nav li {
 .project_snap {
   margin: 20px;
   max-width: 70%;
+  box-shadow: 0 4px 8px 0 #a393eb, 0 6px 20px 0 rgba(0, 0, 0, 2.19);
 }
+.work_title {
+  color: black;
+  font-size: 40px;
+}
+.work_link {
+  text-decoration: none;
+  color: #5a5d60;
+}
+.work_link :hover {
+  color: rgb(202, 23, 178);
+}
+.work_email_img {
+  display: flex;
 
+  margin: 0 auto;
+}
 .footer_content {
   display: flex;
   justify-content: center;
@@ -67,17 +86,28 @@ nav li {
   padding: 40px;
   font-size: 30px;
   margin-top: 20px;
+  color: #a393eb;
 }
 
 .footer_content a:hover {
   color: rgb(202, 23, 178);
 }
 
-@media (max-width: 350px) {
+.git_hub_link {
+  text-decoration: none;
+  color: #a393eb;
+}
+
+.git_hub_footer {
+  text-align: center;
+  font-weight: bolder;
+}
+
+@media (max-width: 400px) {
   .project_title {
     font-size: 20px;
   }
   .work_title {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
